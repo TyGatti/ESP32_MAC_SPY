@@ -1,2 +1,2 @@
 # ESP32_MAC_SPY
-Watch network traffic at the MAC level using an ESP32.
+ESP32_MAC_SPY is a tool that allows a user to spy on the MAC addresses of devices on a Wi-Fi network. It works by putting the ESP32 into promiscuous mode, which allows it to capture all packets transmitted over the network, regardless of the intended recipient. ESP32_MAC_SPY can then parse the captured packets and extract the MAC addresses of the devices that transmitted them. This can be useful for a variety of purposes, such as network security, network troubleshooting, or network analysis.
